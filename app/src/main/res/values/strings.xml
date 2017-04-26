@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ScanDemoExample</string>
+    <string name="app_name">IMS</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="scan_activity">Scan Document</string>
+    <string name="esic_card_no">ESIC Card Number</string>
+    <string name="claim_id">Claim ID</string>
 
 </resources>

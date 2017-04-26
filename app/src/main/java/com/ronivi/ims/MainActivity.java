@@ -27,6 +27,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.HttpURLConnection;
+import java.net.InterfaceAddress;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -38,8 +39,9 @@ public class MainActivity extends ActionBarActivity {
     private Button cameraButton;
     private Button mediaButton;
     private Button uploadButton;
+    private Button backButton;
     private ImageView scannedImageView;
-    private String SERVER_URL = "http://172.168.20.30/a.php";
+    private String SERVER_URL = "http://172.168.20.69/a.php";
     private String selectedFilePath;
 
     @Override
@@ -58,15 +60,20 @@ public class MainActivity extends ActionBarActivity {
         mediaButton.setOnClickListener(new ScanButtonClickListener(ScanConstants.OPEN_MEDIA));
         scannedImageView = (ImageView) findViewById(R.id.scannedImage);
 
+        backButton=(Button)findViewById(R.id.backButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,SearchActivity.class);
+                startActivity(intent);
+                MainActivity.this.finish();
+            }
+        });
+
         uploadButton=(Button)findViewById(R.id.uploadButton);
         uploadButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                /*Uri selectedFileUri= Uri.fromFile((new PickImageFragment().createImageFile()));
-
-                selectedFilePath = FilePath.getPath(MainActivity.this,selectedFileUri);
-                uploadFile(selectedFilePath);*/
 
                 File file =new File(ScanConstants.IMAGE_PATH,new PickImageFragment().filePathName.toString());
                 Uri selectedFileUri= Uri.fromFile(file);
@@ -165,7 +172,6 @@ public class MainActivity extends ActionBarActivity {
         String lineEnd = "\r\n";
         String twoHyphens = "--";
         String boundary = "*****";
-
 
         int bytesRead,bytesAvailable,bufferSize;
         byte[] buffer;

@@ -4,4 +4,22 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="width">750dp</dimen>
     <dimen name="height">750dp</dimen>
+
+    <dimen name="five">4sp</dimen>
+    <dimen name="ten">8sp</dimen>
+    <dimen name="fifteen">13sp</dimen>
+    <dimen name="eighteen">16sp</dimen>
+    <dimen name="thirteen">11sp</dimen>
+    <dimen name="twenty">18sp</dimen>
+    <dimen name="thirty">27sp</dimen>
+    <dimen name="fourty">37sp</dimen>
+    <dimen name="fifty">47sp</dimen>
+    <dimen name="sixty">57sp</dimen>
+    <dimen name="eighty">77sp</dimen>
+    <dimen name="twentyfive">23sp</dimen>
+    <dimen name="two">2sp</dimen>
+    <dimen name="medium_padding">3.0dip</dimen>
+    <dimen name="header_height">150dp</dimen>
+    <dimen name="footer_height">55dp</dimen>
+    <dimen name="listHeight">150dp</dimen>
 </resources>
