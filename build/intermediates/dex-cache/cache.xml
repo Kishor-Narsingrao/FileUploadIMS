@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android_Application_Files\Android Examples\AndroidScannerDemo-master\AndroidScannerDemo-master\ScanDemoExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\Android_Application_Files\Android Examples\AndroidScannerDemo-master\AndroidScannerDemo-master\ScanDemoExample\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-7f7638bc55e290a86bcf947efa999a6af59d6647.jar" />
+    </item>
+    <item
+        jar="E:\Android_Application_Files\Android Examples\AndroidScannerDemo-master\AndroidScannerDemo-master\ScanDemoExample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="E:\Android_Application_Files\Android Examples\AndroidScannerDemo-master\AndroidScannerDemo-master\ScanDemoExample\app\build\intermediates\pre-dexed\debug\classes-dbf8f0bd3289e573f635aee021636116a6485316.jar" />
+    </item>
+    <item
+        jar="E:\Android_Application_Files\Android Examples\AndroidScannerDemo-master\AndroidScannerDemo-master\ScanDemoExample\app\build\intermediates\exploded-aar\ScanDemoExample\scanlibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="53cdd06ae8371ea911b9ae38d4b27a4df7d5903c">
+        <dex dex="E:\Android_Application_Files\Android Examples\AndroidScannerDemo-master\AndroidScannerDemo-master\ScanDemoExample\app\build\intermediates\pre-dexed\debug\classes-70ac5d02a7c5f8b01a736e2dc3d642c19e09019c.jar" />
+    </item>
+    <item
+        jar="E:\Android_Application_Files\Android Examples\AndroidScannerDemo-master\AndroidScannerDemo-master\ScanDemoExample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\Android_Application_Files\Android Examples\AndroidScannerDemo-master\AndroidScannerDemo-master\ScanDemoExample\app\build\intermediates\pre-dexed\debug\classes-315e2802f3fca8e4705fb5b66cc8f9d4b405f3f2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\Android_Application_Files\Android Examples\AndroidScannerDemo-master\AndroidScannerDemo-master\ScanDemoExample\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-26555bb98e843b904dd9ab487b1caac3825ab90c.jar" />
+    </item>
+
+</items>
